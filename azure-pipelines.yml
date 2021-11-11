@@ -35,6 +35,5 @@ steps:
 
 - download: current
   artifact: WebApp
-
-dependsOn: Build
-condition: succeeded()
+  dependsOn: Build
+  condition: succeeded()
